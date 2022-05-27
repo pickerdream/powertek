@@ -1,0 +1,5 @@
+# powertek
+PowerTekへようこそ
+PowerTekでは様々なプロジェクトやソフトウェアを提供するボランティア団体です。
+PowerTekはMixcodeにより管理されています。
+このプロジェクトはPowerTekのウェブサイトプロジェクトです。
