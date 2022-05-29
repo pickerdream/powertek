@@ -1,0 +1,57 @@
+.an-box {
+    animation: zoomIn 0.8s cubic-bezier(0.25, 1, 0.5, 1) 1 forwards;
+    display: flex;
+  }
+  
+  @keyframes zoomIn {
+    0% {
+      transform: scale(0.8);
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+}
+.an-box-p{
+  display:none;
+}
+@media screen and (max-width:425px) {
+    .an-box{
+        display:none;
+    }
+    .an-box-p {
+      display:block;
+    }
+    
+}
+.af-1 {
+    width:20%;
+}
+.af-2 {
+    width:80%;
+}
+.af-2-in {
+    padding:20px;
+}
+.ef-box {
+  padding:20px;
+}
+.bluebox7 {
+  padding: 0.5em 1em;
+  margin: 2em 0;
+  font-weight: bold;
+  background: #FFF;
+  border: solid 3px #6091d3;
+  border-radius: 10px;
+  width:200px;
+  text-align:center;
+  display:inline-block;
+}
+.bluebox7 p {
+  margin: 0; 
+  padding: 0;
+}
+.an-box-p {
+  padding:10px;
+}
